@@ -1,6 +1,6 @@
 # Sfpl::Passes
 
-TODO: Write a gem description
+A small gem that helps you find out the state of the free museum passes are in the San Francisco Public Library system. It's not pretty, but it save me money.
 
 ## Installation
 
@@ -18,7 +18,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+SFPL::Passes.available will give you the passes that should be at each branch
+SFPL::Passes.due will give you the passes that are not yet in and will give you a due date for their "return"
+
+Passing a symbol for the museum will restrict the search
+
+```ruby
+SFPL::Passes.available(:sfmoma, :exploratorium)
+```
+
+Available libraries are:
+        exploratorium
+        asian_art
+        california_academy_of_sciences
+        aquarium_of_the_bay
+        cartoon_art_museum
+        conservatory_of_flowers
+        sfmoma
+        sfzoo
+        childrens_creativity_museum
 
 ## Contributing
 
