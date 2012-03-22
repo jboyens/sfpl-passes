@@ -29,15 +29,15 @@ SFPL::Passes.available(:sfmoma, :exploratorium)
 ```
 
 Available libraries are:
-* exploratorium
-* asian_art
-* california_academy_of_sciences
-* aquarium_of_the_bay
-* cartoon_art_museum
-* conservatory_of_flowers
-* sfmoma
-* sfzoo
-* childrens_creativity_museum
+  * exploratorium
+  * asian_art
+  * california_academy_of_sciences
+  * aquarium_of_the_bay
+  * cartoon_art_museum
+  * conservatory_of_flowers
+  * sfmoma
+  * sfzoo
+  * childrens_creativity_museum
 
 ## Contributing
 
