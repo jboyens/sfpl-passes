@@ -15,5 +15,10 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = SFPL::Passes::VERSION
 
+  gem.add_dependency "mechanize", "~> 2.3"
+  gem.add_dependency "activesupport", "~> 3.2"
+
+  gem.add_development_dependency "webmock", "~> 1.8.0"
   gem.add_development_dependency "rspec", "~> 2.8"
+  gem.add_development_dependency "awesome_print", "~> 1.0.2"
 end
