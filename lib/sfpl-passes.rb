@@ -41,6 +41,9 @@ module SFPL
 
       page = agent.get(PASSES[library])
 
+      # submit the "View additional copies" form
+      page = page.forms[1].submit
+
       statuses = page / "#bib_items" / "tr"
       statuses.map do |m|
         library = (m / "td[1]").text.presence
